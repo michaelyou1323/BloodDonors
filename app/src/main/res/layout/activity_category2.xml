@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Category2"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_15ssp"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="47dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_baseline_add_circle_24"
+            android:onClick="NavigateToRegisterScreen"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5ssp"
+            android:layout_marginEnd="@dimen/_30sdp"
+            >
+
+        </ImageView>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_160sdp"
+            android:layout_marginEnd="@dimen/_7sdp"
+            android:backgroundTint="#757575"
+            android:gravity="center"
+            android:onClick="logout"
+            android:text="Logout"
+            android:textAllCaps="false"
+            app:cornerRadius="@dimen/_5ssp">
+
+
+        </com.google.android.material.button.MaterialButton>
+
+    </LinearLayout>
+
+    <com.google.android.material.card.MaterialCardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="@dimen/_10ssp"
+    android:layout_margin="@dimen/_7ssp"
+    android:elevation="@dimen/_20ssp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_55ssp"
+        android:orientation="horizontal">
+
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="@dimen/_125sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_1sdp"
+            android:layout_weight="1"
+            android:backgroundTint="#F8ECEC"
+            android:fontFamily="cursive"
+            android:onClick="NavigateToGroupAPlus"
+            android:text="DonorS"
+            android:textColor="#AF0101"
+            android:textSize="@dimen/_19sdp"
+            android:textStyle="bold"
+            app:cornerRadius="@dimen/_5ssp"
+
+
+            >
+
+
+        </com.google.android.material.button.MaterialButton>
+
+<!--        <com.google.android.material.button.MaterialButton-->
+<!--            android:textColor="#AF0101"-->
+<!--            android:layout_width="@dimen/_125sdp"-->
+<!--            android:layout_height="@dimen/_35sdp"-->
+<!--            android:layout_marginStart="@dimen/_10sdp"-->
+<!--            android:layout_marginTop="@dimen/_1sdp"-->
+<!--            android:layout_marginEnd="@dimen/_1sdp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:backgroundTint="#F8ECEC"-->
+<!--            android:fontFamily="cursive"-->
+<!--            android:onClick="NavigateToGroupBPlus"-->
+<!--            android:text="b+"-->
+<!--            android:textSize="@dimen/_19sdp"-->
+<!--            android:textStyle="bold"-->
+<!--            app:cornerRadius="@dimen/_5ssp"            >-->
+
+
+<!--        </com.google.android.material.button.MaterialButton>-->
+
+<!--        <com.google.android.material.button.MaterialButton-->
+<!--            android:textColor="#AF0101"-->
+<!--            android:layout_width="@dimen/_125sdp"-->
+<!--            android:layout_height="@dimen/_35sdp"-->
+<!--            android:layout_marginStart="@dimen/_10sdp"-->
+<!--            android:layout_marginTop="@dimen/_1sdp"-->
+<!--            android:layout_marginEnd="@dimen/_1sdp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:backgroundTint="#F8ECEC"-->
+<!--            android:fontFamily="cursive"-->
+<!--            android:onClick="NavigateToGroupOPlus"-->
+<!--            android:text="o+"-->
+<!--            android:textSize="@dimen/_19sdp"-->
+<!--            android:textStyle="bold"-->
+<!--            app:cornerRadius="@dimen/_5ssp"-->
+<!--            >-->
+
+
+<!--        </com.google.android.material.button.MaterialButton>-->
+
+<!--        <com.google.android.material.button.MaterialButton-->
+<!--            android:textColor="#AF0101"-->
+<!--            android:layout_width="@dimen/_125sdp"-->
+<!--            android:layout_height="@dimen/_35sdp"-->
+<!--            android:layout_marginStart="@dimen/_10sdp"-->
+<!--            android:layout_marginTop="@dimen/_1sdp"-->
+<!--            android:layout_marginEnd="@dimen/_1sdp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:backgroundTint="#F8ECEC"-->
+<!--            android:fontFamily="cursive"-->
+<!--            android:onClick="NavigateToGroupABPlus"-->
+<!--            android:text="Ab+"-->
+<!--            android:textSize="@dimen/_19sdp"-->
+<!--            android:textStyle="bold"-->
+<!--            app:cornerRadius="@dimen/_5ssp">-->
+
+
+<!--        </com.google.android.material.button.MaterialButton>-->
+
+
+    </LinearLayout>
+
+<!--    <LinearLayout-->
+<!--        android:layout_marginTop="@dimen/_40ssp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:orientation="horizontal">-->
+
+
+<!--&lt;!&ndash;        <com.google.android.material.button.MaterialButton&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="@dimen/_125sdp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="@dimen/_35sdp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginStart="@dimen/_10sdp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginTop="@dimen/_1sdp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginEnd="@dimen/_1sdp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_weight="1"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:backgroundTint="#F8ECEC"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:fontFamily="cursive"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:onClick="NavigateToGroupAMinus"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:text="Receiver"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:textSize="@dimen/_19sdp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:textStyle="bold"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:cornerRadius="@dimen/_5ssp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:textColor="#AF0101"&ndash;&gt;-->
+
+<!--&lt;!&ndash;            >&ndash;&gt;-->
+
+
+<!--&lt;!&ndash;        </com.google.android.material.button.MaterialButton>&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <com.google.android.material.button.MaterialButton&ndash;&gt;-->
+<!--&lt;!&ndash;            android:textColor="#AF0101"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="@dimen/_125sdp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="@dimen/_35sdp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginStart="@dimen/_10sdp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginTop="@dimen/_1sdp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginEnd="@dimen/_1sdp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_weight="1"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:backgroundTint="#F8ECEC"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:fontFamily="cursive"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:onClick="NavigateToGroupBMinus"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:text="b-"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:textSize="@dimen/_19sdp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:textStyle="bold"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:cornerRadius="@dimen/_5ssp">&ndash;&gt;-->
+
+
+<!--&lt;!&ndash;        </com.google.android.material.button.MaterialButton>&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <com.google.android.material.button.MaterialButton&ndash;&gt;-->
+<!--&lt;!&ndash;            android:textColor="#AF0101"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="@dimen/_125sdp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="@dimen/_35sdp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginStart="@dimen/_10sdp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginTop="@dimen/_1sdp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginEnd="@dimen/_1sdp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_weight="1"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:backgroundTint="#F8ECEC"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:fontFamily="cursive"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:onClick="NavigateToGroupOMinus"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:text="o-"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:textSize="@dimen/_19sdp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:textStyle="bold"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:cornerRadius="@dimen/_5ssp">&ndash;&gt;-->
+
+
+<!--&lt;!&ndash;        </com.google.android.material.button.MaterialButton>&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <com.google.android.material.button.MaterialButton&ndash;&gt;-->
+<!--&lt;!&ndash;            android:textColor="#AF0101"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="@dimen/_125sdp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="@dimen/_35sdp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginStart="@dimen/_10sdp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginTop="@dimen/_1sdp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginEnd="@dimen/_1sdp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_weight="1"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:backgroundTint="#F8ECEC"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:fontFamily="cursive"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:onClick="NavigateToGroupABMinus"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:text="Ab-"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:textSize="@dimen/_19sdp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:textStyle="bold"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:cornerRadius="@dimen/_5ssp">&ndash;&gt;-->
+
+
+<!--&lt;!&ndash;        </com.google.android.material.button.MaterialButton>&ndash;&gt;-->
+
+
+<!--    </LinearLayout>-->
+</com.google.android.material.card.MaterialCardView>
+
+
+
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/frGroups"
+        >
+
+
+    </FrameLayout>
+
+</LinearLayout>

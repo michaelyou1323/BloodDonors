@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CategoryActivity"
+    android:orientation="vertical"
+    android:weightSum="6">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_150sdp"
+        android:orientation="horizontal">
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_70ssp"
+            android:layout_marginTop="@dimen/_50sdp"
+            android:layout_marginBottom="@dimen/_40sdp"
+            android:layout_marginStart="@dimen/_35ssp"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:text="Choose Group "
+            android:textColor="#EFB629"
+            android:layout_gravity="center"
+            android:textSize="@dimen/_40sdp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="98dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_15ssp"
+
+            android:src="@drawable/_660644913866"
+
+            >
+
+        </ImageView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5ssp"
+        android:background="@color/purple_700"
+        android:layout_weight="4"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:weightSum="4"
+            >
+
+            <com.google.android.material.button.MaterialButton
+                android:textStyle="bold"
+                android:fontFamily="cursive"
+                android:layout_width="@dimen/_125sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_weight="1"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:text="A+"
+                android:backgroundTint="#FF0000"
+                android:textSize="@dimen/_30sdp"
+                app:cornerRadius="@dimen/_60ssp"
+                android:onClick="NavigateToGroupAPlus1"
+
+
+                >
+
+
+            </com.google.android.material.button.MaterialButton>
+
+
+            <com.google.android.material.button.MaterialButton
+
+                android:textStyle="bold"
+                android:fontFamily="cursive"
+                android:layout_width="@dimen/_125sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_weight="1"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:text="B+"
+                android:backgroundTint="#FF0303"
+                android:textSize="@dimen/_30sdp"
+                app:cornerRadius="@dimen/_60ssp"
+                android:onClick="NavigateToGroupBPlus"
+                >
+
+
+            </com.google.android.material.button.MaterialButton>
+
+            <com.google.android.material.button.MaterialButton
+
+                android:textStyle="bold"
+                android:fontFamily="cursive"
+                android:layout_width="@dimen/_125sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_weight="1"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:text="o+"
+                android:backgroundTint="#FF0303"
+                android:textSize="@dimen/_30sdp"
+                app:cornerRadius="@dimen/_60ssp"
+                android:onClick="NavigateToGroupOPlus"
+                >
+
+
+            </com.google.android.material.button.MaterialButton>
+            <com.google.android.material.button.MaterialButton
+
+                android:textStyle="bold"
+                android:fontFamily="cursive"
+                android:layout_width="@dimen/_125sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_weight="1"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:text="Ab+"
+                android:backgroundTint="#FF0303"
+                android:textSize="@dimen/_30sdp"
+                app:cornerRadius="@dimen/_60ssp"
+                android:onClick="NavigateToGroupABPlus"
+                >
+
+
+            </com.google.android.material.button.MaterialButton>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:weightSum="4">
+
+            <com.google.android.material.button.MaterialButton
+
+                android:textStyle="bold"
+                android:fontFamily="cursive"
+                android:layout_width="@dimen/_125sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_weight="1"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:text="A-"
+                android:backgroundTint="#FF0303"
+                android:textSize="@dimen/_30sdp"
+                app:cornerRadius="@dimen/_60ssp"
+                android:onClick="NavigateToGroupAMinus"
+                >
+
+
+            </com.google.android.material.button.MaterialButton>
+
+
+            <com.google.android.material.button.MaterialButton
+
+                android:textStyle="bold"
+                android:fontFamily="cursive"
+                android:layout_width="@dimen/_125sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_weight="1"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:text="B-"
+                android:backgroundTint="#FF0303"
+                android:textSize="@dimen/_30sdp"
+                app:cornerRadius="@dimen/_60ssp"
+                android:onClick="NavigateToGroupBMinus"
+                >
+
+
+            </com.google.android.material.button.MaterialButton>
+
+            <com.google.android.material.button.MaterialButton
+
+                android:textStyle="bold"
+                android:fontFamily="cursive"
+                android:layout_width="@dimen/_125sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_weight="1"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:text="o-"
+                android:backgroundTint="#FF0303"
+                android:textSize="@dimen/_30sdp"
+                app:cornerRadius="@dimen/_60ssp"
+                android:onClick="NavigateToGroupOMinus"
+                >
+
+
+            </com.google.android.material.button.MaterialButton>
+            <com.google.android.material.button.MaterialButton
+
+                android:textStyle="bold"
+                android:fontFamily="cursive"
+                android:layout_width="@dimen/_125sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_weight="1"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:text="Ab-"
+                android:backgroundTint="#FF0303"
+                android:textSize="@dimen/_30sdp"
+                app:cornerRadius="@dimen/_60ssp"
+                android:onClick="NavigateToGroupABMinus"
+                >
+
+
+            </com.google.android.material.button.MaterialButton>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

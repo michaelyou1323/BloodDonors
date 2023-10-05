@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "221735714080",
+    "project_id": "blood-donation-4ba45",
+    "storage_bucket": "blood-donation-4ba45.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:221735714080:android:2396c4d82263f737ae6b45",
+        "android_client_info": {
+          "package_name": "com.michaelyou2000.dentalclinic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "221735714080-lv1ljqile5pbhsckqc7p0cdib44qc1rc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAoOQkDR9IY91dmngzGxFuSTq88Fppybs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "221735714080-lv1ljqile5pbhsckqc7p0cdib44qc1rc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
